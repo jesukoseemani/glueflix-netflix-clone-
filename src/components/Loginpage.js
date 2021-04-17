@@ -47,6 +47,7 @@ const signIn = (e) => {
     <Styledform>
       <form className="form">
       <h2>Welcome to Netflix</h2>
+      <p>you must fill in your email & password before you sign-Up or sign-In</p>
       <input ref={emailRef} type="email" placeholder="Email"/>
       <input ref={passwordRef} type="password" placeholder="Password"/>
       <input onClick={signIn} type="submit" value="Sign In" />

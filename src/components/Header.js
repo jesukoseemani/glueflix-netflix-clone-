@@ -144,6 +144,9 @@ const Hero = styled(motion.div)`
   align-items: center;
   margin: 2.5rem 0;
   width: 80%;
+  @media(max-width : 58.125em){
+       flex-direction: column; 
+      }
 
   @media (max-width: 37.5em){
     flex-wrap: wrap;
@@ -164,6 +167,10 @@ input::placeholder {
   padding: 21px 0 21px 8px;
   flex: 0 0 60%;
   outline: none;
+  width: 100%;
+  /* @media(max-width : 58.125em){
+        flex: 1
+      } */
   }
 
   .submit{
@@ -178,6 +185,11 @@ input::placeholder {
   font-weight: bold;
   cursor: pointer;
   flex: 0 0 20%;
+  @media(max-width : 58.125em){
+    padding: 18px 3rem 20px 3rem;
+    margin-top: .5rem;
+      }
+  
 
   &:hover {
   opacity: 1;
