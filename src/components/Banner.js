@@ -24,8 +24,8 @@ function Banner() {
     <Styledbanner style ={{
       background: `linear-gradient(
         to right,
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.8)
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
       ), url("https://image.tmdb.org/t/p/original/${movies?.backdrop_path}") center no-repeat`
     }}>
       <Bannerdescription>

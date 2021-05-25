@@ -32,9 +32,9 @@ body{
   /* overflow-x: hidden; */
   background-color: #141414;
   
-@media (max-width: 28.13em){
+/* @media (max-width: 28.13em){
   width: fit-content;
-}
+} */
 }
 h2{
   font-size: 2.5rem;

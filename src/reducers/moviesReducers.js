@@ -6,8 +6,7 @@ const initState = {
   comedyMovies: [],
   horrorMovies: [],
   romanceMovies: [],
-  documentariesMovies: [],
-  
+  documentariesMovies: [],  
 }
 
 const moviesReducers = (state = initState, action) => {

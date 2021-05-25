@@ -112,18 +112,18 @@ const Inputrepeat = styled.div`
   margin: 2.5rem 0;
 
 .email{
-  padding: 21px 0 21px 8px;
+  padding: 1rem 1rem;
   flex: 0 0 50%;
   outline: none;
   }
 
   .submit{
-  padding: 18px 0 20px 0;
+  padding: 1rem 1rem;
   margin-right: 1rem;
   background-color: red;
   text-transform: uppercase;
   color: #fafafa;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
   opacity: 0.8;
   font-weight: bold;

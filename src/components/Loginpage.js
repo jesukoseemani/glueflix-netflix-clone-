@@ -47,7 +47,7 @@ const signIn = (e) => {
     <Styledform>
       <form className="form">
       <h2>Welcome to Netflix</h2>
-      <p>you must fill in your email & password before you sign-Up or sign-In</p>
+      <p style={{color: "white", textAlign: "center", fontWeight:"bold", marginBottom: "1rem", }}>you must fill in your email & password before you sign-Up or sign-In</p>
       <input ref={emailRef} type="email" placeholder="Email"/>
       <input ref={passwordRef} type="password" placeholder="Password"/>
       <input onClick={signIn} type="submit" value="Sign In" />
@@ -84,12 +84,15 @@ const Showcasetop = styled(motion.div)`
   width: 100%;
   z-index: 2;
   
+  
+  
   img {
   position: absolute;
   width: 14rem;
   top: 50%;
-  left: 10%;
+  left: 20%;
   transform: translate(-50%, -50%);
+  /* @media(max-width:) */
 }
 
 button {

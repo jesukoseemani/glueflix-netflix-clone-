@@ -164,7 +164,7 @@ input::placeholder {
 } */
 
 .email{
-  padding: 21px 0 21px 8px;
+  padding: 1rem 1rem;
   flex: 0 0 60%;
   outline: none;
   width: 100%;
@@ -174,19 +174,19 @@ input::placeholder {
   }
 
   .submit{
-  padding: 18px 0 20px 0;
+    padding: 1rem 1rem;
   margin-right: 1rem;
   background-color: red;
   text-transform: uppercase;
   color: #fafafa;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
   opacity: 0.8;
   font-weight: bold;
   cursor: pointer;
   flex: 0 0 20%;
   @media(max-width : 58.125em){
-    padding: 18px 3rem 20px 3rem;
+    padding: 1rem 1rem;
     margin-top: .5rem;
       }
   
